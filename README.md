@@ -1,4 +1,6 @@
-# Go context with cancellation and timeout explained 
+# Go context explained 
+
+## with timeout
 
 The main function, often main.go, is the application's entry point where the context with a timeout is declared. This context sets a deadline for the execution of the code, ensuring operations, such as API calls or database queries, complete within the specified timeout. 
 
